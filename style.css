@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url("asset/Background.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 400%;
+}
+.gradie {
+  position: absolute;
+  left: 34%;
+  top: 50%;
+  transform: translate(-34%, -50%);
+  background-color: #012431;
+  text-align: center;
+  padding: 32px, 32px, 0px, 32px;
+  height: 410px;
+  width: 285px;
+  box-sizing: border-box;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  /* margin: 20px, 5px, 10px, 5px; */
+}
+.gradie > div {
+  text-align: center;
+  /* position: relative;
+  left: 50%; */
+  margin-top: 40px;
+}
+.gradie div h2 {
+  color: white;
+  letter-spacing: 0.05em;
+}
+.gradie img {
+  align-content: center;
+  margin-top: -73px;
+  height: 400px;
+  width: 290px;
+  /* position: absolute;
+  left: 19%;
+  top: 190%
+  transform: translate(-19%, -190%); */
+}
+
+#grad {
+  color: #86bfd3;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.log {
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+.login h2 {
+  margin-bottom: 15px;
+  font-weight: bolder;
+  width: 200px;
+  height: 35px;
+  background-color: #ffffff;
+}
+.login {
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translate(-60%, -50%);
+  background-color: #ffffff;
+  /* min-width: auto; */
+  /* min-width: auto; */
+  box-sizing: border-box;
+  /* letter-spacing: 0.03em; */
+  /* align-self: center; */
+  padding: 40px;
+  width: 290px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.box {
+  display: inline-block;
+  width: 250px;
+  /* overflow: auto;
+  float: left; */
+}
+.box input {
+  float: left;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+.box #block {
+  display: block;
+  overflow: auto;
+  /* letter-spacing: 0.08em; */
+  font-size: 12px;
+  margin-bottom: 12px;
+  height: 60px;
+}
+#block span {
+  text-underline-offset: 2px;
+  color: #012431;
+  font-weight: bold;
+}
+span a:hover {
+  color: black;
+}
+span a:link {
+  color: deepskyblue;
+}
+span a:active {
+  color: brown;
+}
+
+form label {
+  color: #012431;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: #ffffff;
+}
+
+form input {
+  margin-top: -10px;
+  padding: 12px;
+  border-radius: 4px;
+  border-width: thin;
+}
+label.email {
+  color: #012431;
+  letter-spacing: 0.06em;
+  font-weight: bold;
+  font-size: 12px;
+}
+/* 14 oluwole olusiji street, white sand estate, isheri/ijegun lagos state */
+button {
+  padding: 12px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #012431;
+  border-width: thin;
+  letter-spacing: 0.08em;
+  margin-top: -20px;
+  cursor: pointer;
+}
+button:active {
+  background-color: #f192a9;
+}
+button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+button:visited {
+  background-color: darkslategrey;
+}
+button:link {
+  background-color: #012431;
+}
