@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url("asset/Background.png");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 400%;
+}
+
+  
+
+button:active {
+  background-color: #f192a9;
+}
+
+button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+button:visited {
+  background-color: darkslategrey;
+}
+
+button:link {
+  background-color: #012431;
+}
+
+@media (min-width: 992px) {
+
+}
+
