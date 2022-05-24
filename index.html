@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,26 +24,33 @@
           <img src="asset/iPhone Mockup.png" />
         </section>
         <section class="login">
-          <h2 class="log">Login</h2>
           <div>
+            <h2>Login</h2>
+
             <form action="GET">
               <label class="email" for="email">Email</label>
               <br />
               <input
                 type="email"
                 name="email"
+                id="email"
                 placeholder="john@example.com"
                 required
               />
-              <br />
+
               <label class="email" for="password">Password</label>
-              <br />
-              <input type="password" name=:"password" placeholder="At least 8
-              characters" required>
-              <br />
+
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="At least 8 characters"
+                required
+              />
+
               <label class="box">
-                <input type="checkbox" />
-                <p id="block">
+                <input type="checkbox" class="checkbox" />
+                <p>
                   By creating an account, you <br />
                   agree to the
                   <span
@@ -55,7 +61,7 @@
                   >
                 </p>
               </label>
-              <br />
+
               <button type="submit">Create an Account</button>
             </form>
           </div>
@@ -64,47 +70,3 @@
     </div>
   </body>
 </html>
-=======
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gradie Sign Up</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <section class="gradie">
-            <div>
-                <h2>Gradie</h2>
-                <p id="grad">Beautiful gradients in seconds.</p>
-            </div>          
-            <img src="asset/iPhone Mockup.png">
-        </section>
-        <section class="login">
-            <h2 class="log">Login</h2>  
-            <div>
-                <form action="GET">
-                    <label class="email" for="email">Email</label>
-                    <br>
-                    <input type="email" name="email" placeholder="john@example.com" required>
-                    <br>
-                    <label class="email" for="password">Password</label>
-                    <br>
-                    <input type="password" name=:"password" placeholder="At least 8 characters" required>
-                    <br>
-                    <label class="box">
-                    <input type="checkbox">
-                    <p id="block">
-                        By creating an account, you <br>  agree to the <span><a href="#">Terms & <br> Conditions.</a></span></p>
-                        </label>
-                    <br>
-                    <button type="submit">Create an Account</button>
-                </form>
-            </div>
-        </section>
-    </body>
-</html>
->>>>>>> 82727fadb153ebc683badbd025e60f673af3c9cf
