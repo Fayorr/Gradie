@@ -13,13 +13,11 @@
   margin: 0 auto;
   text-align: center;
   background-color: #012431;
-  /* background-color: red; */
-  height: 35%;
+  height: 65%;
 }
 .gradie img {
   width: 100%;
   margin-top: -12rem;
-  /* background-color: red; */
 }
 .gradie div{
   margin-top: 4rem;
@@ -73,19 +71,15 @@ padding: 1.5rem 0;
   display: flex;
   width: 80%;
   margin: 1rem 1rem 1rem 0;
-  /* background-color: red; */
-
 }
 .box p{
   font-weight: lighter;
   color: #000;
-  /* margin: 1rem; */
 }
 .checkbox{
   margin-right: 1.2rem;
   height: 1.1rem;
   width: 1.1rem;
-/* padding-top: 2rem; */
 }
 span a{
   color: #012431;
@@ -121,7 +115,6 @@ button:link {
       background-image: url("asset/Background.png");
       background-repeat: repeat;
       background-position: center;
-      /* background-size: 400%; */
       position: relative;
     }
 .container{
@@ -140,10 +133,6 @@ button:link {
 button{
   margin: 2rem 0;
 }}
-
-
-
-
 @media (min-width: 992px) {
 body {
     background-image: url("asset/Background.png");
@@ -156,8 +145,14 @@ body {
   flex-direction: row;
   justify-content: center;
   margin: 0 auto;
-
+background-color: #fff;
 }
-
+.gradie, .login{
+  height: 10%;
+  width: 50%;
+}
+.gradie{
+  width: 54.5%;
+}
 }
 
