@@ -110,7 +110,7 @@ button:visited {
 button:link {
   background-color: #012431;
 }
-@media (min-width: 700px){
+@media (min-width: 768px){
   body {
       background-image: url("asset/Background.png");
       background-repeat: repeat;
@@ -120,6 +120,9 @@ button:link {
 .container{
   width: 70%;
   margin: 6rem auto;
+}
+.gradie img {
+  margin-top: -16rem;
 }
 .login{
   background-color: #fff;
@@ -153,6 +156,16 @@ background-color: #fff;
 }
 .gradie{
   width: 54.5%;
+}
+.gradie img {
+
+  margin-top: -8rem;
+}
+.box {
+  margin: 2rem 0;
+}
+button {
+  margin: 1rem 0;
 }
 }
 
